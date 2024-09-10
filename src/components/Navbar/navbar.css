@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .Navbar {
+    justify-content: flex;
+    align-items: flex;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .Apple {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b8b8b8;
+    text-align: center;
+
+  }
+  
+  .Apple-links {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Apple-links li {
+    justify-content: end;
+    margin: o;
+    text-align: end;
+  }
+
+  .Apple-links li a {
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.Apple-links li:hover {
+  background-color: blue;
+}
